@@ -1,0 +1,37 @@
+# Environment & secrets — never commit
+.env
+.env.*
+*.env
+*.env.local
+.envrc
+*.pem
+*.p12
+Secrets.xcconfig
+**/Secrets.swift
+credentials.json
+**/credentials.json
+
+# macOS
+.DS_Store
+._*
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local scratch
+.imgvenv/
+Assests/
+**/Assests/
+*.log

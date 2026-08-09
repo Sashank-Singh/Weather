@@ -1,0 +1,39 @@
+name: Weather
+options:
+  bundleIdPrefix: com.wearweather
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+    INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: Weather uses your location to show local conditions.
+    GENERATE_INFOPLIST_FILE: YES
+    PRODUCT_BUNDLE_IDENTIFIER: com.wearweather.Weather
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  Weather:
+    type: application
+    platform: iOS
+    sources:
+      - path: Weather
+        excludes:
+          - "**/*.md"
+    settings:
+      base:
+        PRODUCT_NAME: Weather
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    info:
+      path: Weather/Info.plist
+      properties:
+        CFBundleDisplayName: Weather
+        UILaunchScreen: {}
+        NSLocationWhenInUseUsageDescription: Weather uses your location to show local conditions.
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
