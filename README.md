@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/icon.png" width="120" alt="Weather app icon" />
+</p>
+
 # Weather
 
 A minimal iOS weather app built with SwiftUI and Liquid Glass. One glance feels like looking outside — photo skies, sparse chrome, and air quality explained in plain language.
