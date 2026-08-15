@@ -8,20 +8,6 @@ A minimal iOS weather app built with SwiftUI and Liquid Glass. One glance feels 
 
 **Requirements:** Xcode 26 · iOS 26+ · [XcodeGen](https://github.com/yonaskolb/XcodeGen)
 
----
-
-## Previews
-
-<p align="center">
-  <img src="docs/previews/01-home.jpg" width="200" alt="Home — temperature over a photo sky" />
-  &nbsp;
-  <img src="docs/previews/02-aqi.jpg" width="200" alt="US AQI with plain-language advice" />
-  &nbsp;
-  <img src="docs/previews/03-details.jpg" width="200" alt="Feels-like sheet — high, low, sun times" />
-  &nbsp;
-  <img src="docs/previews/04-locations.jpg" width="200" alt="Saved locations and search" />
-</p>
-
 | Screen | What it does |
 | --- | --- |
 | **Home** | Condition sky, large temperature, °C / °F toggle |
